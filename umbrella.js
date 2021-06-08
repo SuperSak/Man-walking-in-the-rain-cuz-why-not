@@ -14,7 +14,7 @@ class Umbrella{
     }
     display(){
         this.Sprite = createSprite(this.x,this.y,this.r,this.r)
-        this.Sprite.addAnimation("walking", walking)
+        this.Sprite.addImage( walking)
         this.Sprite.scale = 0.5
     }
 }
